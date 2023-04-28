@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MainSuit" class="navigator-link">
+              <span class="suite-name border-skipped">MainSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MainSuit" class="navigator-link ">
+                    <span>E:\download software\eclipse workspace\AngelOne\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MainSuit" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MainSuit" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MainSuit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MainSuit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MainSuit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MainSuit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-MainSuit" class="hide-methods skipped suite-MainSuit"> (hide)</a> <!-- hide-methods skipped suite-MainSuit -->
+                      <a href="#" panel-name="suite-MainSuit" class="show-methods skipped suite-MainSuit"> (show)</a> <!-- show-methods skipped suite-MainSuit -->
+                    </span>
+                    <div class="method-list-content skipped suite-MainSuit">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuit" title="com.Angelone.Testpackage.TC03verifyLogOutfunctionality" class="method navigator-link" hash-for-method="VerifyLogOutFunctionality">VerifyLogOutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuit" title="com.Angelone.Testpackage.TC01VarifyLoginFunctionality" class="method navigator-link" hash-for-method="method">method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuit" title="com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot" class="method navigator-link" hash-for-method="selectSymbol">selectSymbol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-MainSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MainSuit" class="panel MainSuit">
+          <div class="suite-MainSuit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.Angelone.Testpackage.TC03verifyLogOutfunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogOutFunctionality">
+                  </a> <!-- VerifyLogOutFunctionality -->
+                  <span class="method-name">VerifyLogOutFunctionality</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;BrowserName&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuit-class-skipped -->
+          <div class="suite-MainSuit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.Angelone.Testpackage.TC01VarifyLoginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method">
+                  </a> <!-- method -->
+                  <span class="method-name">method</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;BrowserName&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuit-class-skipped -->
+          <div class="suite-MainSuit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSymbol">
+                  </a> <!-- selectSymbol -->
+                  <span class="method-name">selectSymbol</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;BrowserName&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuit-class-skipped -->
+        </div> <!-- panel MainSuit -->
+        <div panel-name="test-xml-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\download software\eclipse workspace\AngelOne\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MainSuit&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;highpriorityTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Angelone.Testpackage.TC01VarifyLoginFunctionality&quot;/&gt;
+      &lt;class name=&quot;com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot&quot;/&gt;
+      &lt;class name=&quot;com.Angelone.Testpackage.TC03verifyLogOutfunctionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- highpriorityTest --&gt;
+&lt;/suite&gt; &lt;!-- MainSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MainSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">highpriorityTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MainSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MainSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MainSuit');
+function tableData_MainSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectSymbol')
+data.setCell(0, 2, 'com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'method')
+data.setCell(1, 2, 'com.Angelone.Testpackage.TC01VarifyLoginFunctionality')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyLogOutFunctionality')
+data.setCell(2, 2, 'com.Angelone.Testpackage.TC03verifyLogOutfunctionality')
+data.setCell(2, 3, 0);
+window.suiteTableData['MainSuit']= { tableData: data, tableDiv: 'times-div-MainSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-MainSuit">
+              </div> <!-- times-div-MainSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MainSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MainSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectSymbol</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Angelone.Testpackage.TC01VarifyLoginFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Angelone.Testpackage.TC03verifyLogOutfunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogOutFunctionality</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Angelone.Testpackage.TC01VarifyLoginFunctionality</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Angelone.Testpackage.TC03verifyLogOutfunctionality</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

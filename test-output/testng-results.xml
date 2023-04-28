@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-20T12:28:58 IST" name="MainSuit" finished-at="2023-04-20T12:28:58 IST" duration-ms="218">
+    <groups>
+    </groups>
+    <test started-at="2023-04-20T12:28:58 IST" name="highpriorityTest" finished-at="2023-04-20T12:28:58 IST" duration-ms="218">
+      <class name="com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot@54e1c68b]" started-at="2023-04-20T12:28:58 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681973938199" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectSymbol()[pri:0, instance:com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot@54e1c68b]" started-at="2023-04-20T12:28:58 IST" name="selectSymbol" finished-at="2023-04-20T12:28:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSymbol -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot@54e1c68b]" started-at="2023-04-20T12:28:58 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681973938287" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot -->
+      <class name="com.Angelone.Testpackage.TC03verifyLogOutfunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Angelone.Testpackage.TC03verifyLogOutfunctionality@53aac487]" started-at="2023-04-20T12:28:58 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681973938202" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogOutFunctionality()[pri:0, instance:com.Angelone.Testpackage.TC03verifyLogOutfunctionality@53aac487]" started-at="2023-04-20T12:28:58 IST" name="VerifyLogOutFunctionality" finished-at="2023-04-20T12:28:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogOutFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Angelone.Testpackage.TC03verifyLogOutfunctionality@53aac487]" started-at="2023-04-20T12:28:58 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681973938275" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Angelone.Testpackage.TC03verifyLogOutfunctionality -->
+      <class name="com.Angelone.Testpackage.TC01VarifyLoginFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Angelone.Testpackage.TC01VarifyLoginFunctionality@1de76cc7]" started-at="2023-04-20T12:28:58 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681973938182" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="method()[pri:0, instance:com.Angelone.Testpackage.TC01VarifyLoginFunctionality@1de76cc7]" started-at="2023-04-20T12:28:58 IST" name="method" finished-at="2023-04-20T12:28:58 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in E:\download software\eclipse workspace\AngelOne\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Angelone.Testpackage.TC01VarifyLoginFunctionality@1de76cc7]" started-at="2023-04-20T12:28:58 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681973938257" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Angelone.Testpackage.TC01VarifyLoginFunctionality -->
+    </test> <!-- highpriorityTest -->
+  </suite> <!-- MainSuit -->
+</testng-results>

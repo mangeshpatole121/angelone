@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MainSuit">
+  <test thread-count="5" name="highpriorityChromeTest">
+  <parameter name = "BrowserName" value="Chrome"></parameter>
+    <classes>    
+      <class name="com.Angelone.Testpackage.TC01VarifyLoginFunctionality"/>
+      <class name="com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot"/>
+      <class name="com.Angelone.Testpackage.TC03verifyLogOutfunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="highpriorityFirefoxTest">
+  <parameter name = "BrowserName" value="firefox"></parameter>
+    <classes>    
+      <class name="com.Angelone.Testpackage.TC01VarifyLoginFunctionality"/>
+      <class name="com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot"/>
+      <class name="com.Angelone.Testpackage.TC03verifyLogOutfunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

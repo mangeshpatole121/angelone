@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [MainSuit]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="highpriorityFirefoxTest(failed)(failed)(failed)">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="com.Angelone.Testpackage.TC03verifyLogOutfunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="VerifyLogOutFunctionality"/>
+        </methods>
+      </class> <!-- com.Angelone.Testpackage.TC03verifyLogOutfunctionality -->
+      <class name="com.Angelone.Testpackage.TC01VarifyLoginFunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="method"/>
+        </methods>
+      </class> <!-- com.Angelone.Testpackage.TC01VarifyLoginFunctionality -->
+      <class name="com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="selectSymbol"/>
+        </methods>
+      </class> <!-- com.Angelone.Testpackage.TC02VarifyWeAreAbleToSelectSymbolORnot -->
+    </classes>
+  </test> <!-- highpriorityFirefoxTest(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [MainSuit]]] -->
